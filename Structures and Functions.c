@@ -1,4 +1,4 @@
-#include<iostream>
+#include<stdio.h>
 using namespace std;
 
 
@@ -32,6 +32,8 @@ int main()
     area(r);
     changeLength(&r,20);
 
-    cout<<r.length<<endl;
-    cout<<area(r)<<endl;
+    printf("%d\n", r.length);
+    printf("%d\n", area(r));
+
+    return 0;
 }
